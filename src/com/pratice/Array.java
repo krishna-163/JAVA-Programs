@@ -15,7 +15,7 @@ public class Array {
 		
 		for(i=0;i<array.length;i++)
 			
-			/// hvckjkvkglkglkglkjbnvmkbm,
+	
 			{
 			System.out.print(array[i]+" ");
 			}
