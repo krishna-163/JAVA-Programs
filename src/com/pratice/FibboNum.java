@@ -2,13 +2,9 @@ package com.pratice;
 
 import java.util.Scanner;
 
-public class FibonacciNum {
-	public void printFibonacci() {
-
-		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter number of F_nums need to be printed");
-		int i, n1, n2, n3, x;
-		x = sc.nextInt();
+public class FibboNum {
+	public void printFibonacci_arg(int x) {
+		int i, n1, n2, n3;
 		n1 = 1;
 		n2 = 1;
 		System.out.print(n1 + " " + n2);
@@ -27,9 +23,12 @@ public class FibonacciNum {
 	}
 
 	public static void main(String[] args) {
-		FibonacciNum fs = new FibonacciNum();
+		FibboNum fs = new FibboNum();
 
-		fs.printFibonacci();
+		String value = args[0];
+		int i = Integer.parseInt(value);
+
+		fs.printFibonacci_arg(i);
 
 	}
 
