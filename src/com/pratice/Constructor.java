@@ -7,15 +7,15 @@ public class Constructor {
 	}
 	
 	public Constructor(int x) {
-		System.out.println("6");
+		System.out.println(x);
 	}
 	
 	public Constructor(String K) {
-		System.out.println("Krish");
+		System.out.println(K);
 	}
 	
 	public Constructor(int y, String J) {
-		System.out.println("7" + "David");
+		System.out.println(y + J);
 	}
 	
 	
@@ -24,6 +24,7 @@ public class Constructor {
 		Constructor d = new Constructor(5);
 		Constructor e = new Constructor("john");
 		Constructor f = new Constructor("5" + "Wareen");
+		
 		
 
 	}
