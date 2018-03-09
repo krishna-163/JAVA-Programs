@@ -2,7 +2,7 @@ package com.pratice;
 
 import java.util.Scanner;
 
-public class FibonacciNum {
+public class FibonacciNum implements FibonacciInterface {
 	public void printFibonacci() {
 
 		Scanner sc = new Scanner(System.in);
