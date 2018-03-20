@@ -2,7 +2,7 @@ package com.pratice;
 
 public class StringTest {
 
-	public static void main(String[] args) {
+	public static void main(java.lang.String[] args) {
 		
 		
 	final String s = new String(" A particular advantage of using interface in Java"

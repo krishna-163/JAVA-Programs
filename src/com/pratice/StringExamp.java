@@ -2,7 +2,7 @@ package com.pratice;
 import java.util.*;
 import java.io.*;
 
-public class String {
+public class StringExamp {
 
 	
 	public static void main(java.lang.String[] args) {
